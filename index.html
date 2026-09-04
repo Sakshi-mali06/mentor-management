@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <script src="script.js"></script>
+    <title>Mentor Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- Top Bar -->
+<div class="topbar">
+    <h2>Mentor Management</h2>
+</div>
+
+<!-- Add Mentor -->
+<div class="container">
+
+    <h3>Add Mentor</h3>
+
+<form action="add.php" method="POST" onsubmit="return checkForm()">
+
+    <label>Mentor Name</label>
+    <input type="text" name="mentor_name" id="mentorName">
+
+    <label>Employee ID</label>
+    <input type="text" name="employee_id" id="employeeId">
+
+    <label>Department</label>
+    <select name="department" id="department">
+        <option value="">Select Department</option>
+        <option>Computer</option>
+        <option>IT</option>
+        <option>Mechanical</option>
+        <option>Civil</option>
+    </select>
+
+    <label>Designation</label>
+    <input type="text" name="designation" id="designation">
+
+    <label>Maximum Mentee Allowed</label>
+    <input type="number" name="mentee_allowed" id="mentee">
+
+    <label>Profile Photo</label>
+    <input type="file" id="photo">
+
+    <button type="submit">Submit</button>
+
+</form>
+
+    
+       
+</div>
+
+
+
+
+</body>
+</html>
