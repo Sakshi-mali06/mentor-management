@@ -1,3 +1,4 @@
+
 <?php
 
 $conn = mysqli_connect("localhost", "root", "", "mentor_db");
